@@ -1,0 +1,31 @@
+.headingDiv h2 {
+    font-size: 2.4rem !important;
+    margin: 0.7rem 0 1rem !important;
+}
+
+.headingDiv > p {
+    margin-bottom: 2.5em !important;
+}
+
+.headingDiv span {
+    color: #FC6E36;
+    font-size: 0.93333rem;
+    font-weight: 600;
+}
+
+.headingDiv {
+    text-align: center !important;
+}
+
+@media screen and (max-width: 992px) {
+    .headingDiv h2 {
+        font-size: 2rem !important;
+        margin-bottom: 1.7rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .headingDiv h2 {
+        font-size: 1.7rem !important;
+    }
+}

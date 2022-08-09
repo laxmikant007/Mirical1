@@ -1,0 +1,113 @@
+.service-section {
+    position: relative;
+    padding-top: 0 !important;
+}
+
+
+.service-section .service-grids {
+    margin-top: 180px;
+}
+
+.service-section .img-holder {
+    /* margin-top: 120px; */
+    margin-top: 210px;
+}
+
+.service-section .service-grids .grid {
+    position: relative;
+    padding-left: 80px;
+}
+
+.service-section .service-grids h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: .2em 0 .6em;
+}
+
+.service-section .service-grids h3 a {
+    color: #233d62;
+}
+
+.service-section .service-grids h3 a:hover {
+    color: #FC6E36;
+}
+
+.service-section .service-grids>.grid+.grid {
+    margin-top: 50px;
+}
+
+.service-section .service-grids .icon {
+    position: absolute;
+    left: 0;
+    top: 11px;
+}
+
+.service-section .service-grids .icon .fas::before, .service-section .service-grids .icon .far::before {
+    font-size: 3.33333rem;
+    color: #fc6e36;
+    /* color: #5447C9; */
+}
+
+@media (max-width: 500px) {
+    .service-section .service-grids {
+        margin-top: 70px;
+    }
+
+    .service-section .service-grids .icon .fas::before, .service-section .service-grids .icon .far::before {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-section {
+        margin-top: -40px!important;
+    }
+}
+
+@media (max-width: 991px) {
+    .service-section .service-grids {
+        margin-top: 120px;
+    }
+
+    .service-section .img-holder {
+        display: none;
+    }
+
+    .service-section .right-col {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    .service-section .right-align {
+        text-align: right;
+    }
+
+    .service-section .right-align .grid {
+        position: relative;
+        padding-right: 80px;
+        padding-left: 0;
+    }
+
+    .service-section .right-align .icon {
+        position: absolute;
+        right: 0;
+        left: auto;
+        top: 11px;
+    }
+
+    .service-section {
+        margin-top: -20px!important;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .service-section .img-holder {
+        margin-top: 180px;
+    }
+    .service-section .service-grids p {
+        font-size: .93333rem;
+    }
+}

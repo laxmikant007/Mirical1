@@ -1,0 +1,110 @@
+#whatsapp-widget {
+    bottom: 25px;
+    left: 23px;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
+    box-sizing: border-box;
+    direction: ltr;
+    position: fixed !important;
+    z-index: 16000160 !important;
+}
+
+.whatsapp-icon {
+    display: flex;
+    margin-top: 14px;
+    position: relative;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.whatsappLink {
+    width: 50px;
+    height: 50px;
+    order: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
+    transition: all 5s ease 0s;
+    position: relative;
+    z-index: 200;
+    display: block;
+    border: 0px;
+    background: rgb(77, 194, 71) !important;
+}
+
+.whatsapp-msg-link {
+    transform: translateX(0px);
+    position: relative;
+    animation-duration: 0.64s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    animation-delay: 0.16s;
+    animation-fill-mode: backwards;
+    animation-name: ijMbJr;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 13px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    margin: auto auto auto 31px;
+    max-width: 155px;
+    max-height: 44px;
+    display: flex;
+    order: 2;
+    text-decoration: none !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.whatsapp-msg-link::before {
+    content: "";
+    position: absolute;
+    background: white;
+    border-top: 1px solid rgb(226, 226, 226);
+    border-left: 1px solid rgb(226, 226, 226);
+    left: -5px;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    transform: rotate(-45deg);
+}
+
+.whatsapp-hover-message {
+    text-align: center;
+    padding: 7px 10px;
+    line-height: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    margin: auto;
+}
+
+/* #whatsapp-icon a {
+    background: url(../../img/whatsapp-logo-4456.svg) no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px;
+    transition: all 0.5s ease 0s;
+    background-size: 95% 80%;
+    width: 50px;
+    height: 116px;
+    display: block;
+} */
+
+/* #whatsapp-icon a {
+    width: 50px;
+    height: 50px;
+    order: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    z-index: 200;
+    display: block;
+    border: 0px;
+    background: rgb(77, 194, 71) !important;
+} */

@@ -1,0 +1,99 @@
+.team-grids {
+    margin: 0 -15px;
+}
+
+.team-grids img {
+    border-radius: 50%;
+}
+
+.team-section .team-grids .grid {
+    width: calc(25% - 30px);
+    /* width: calc(50% - 220px); */
+    float: left;
+    margin: 0 15px 30px;
+    text-align: center;
+}
+
+.team-section .details {
+    padding-top: 25px;
+}
+
+.team-section .details h4 {
+    font-size: 1.2rem;
+    margin: 0 0 .3em;
+}
+
+.team-section .details p {
+    font-size: .9999rem;
+    margin: 0 0 .5em;
+}
+
+.team-section .details ul {
+    display: inline-block;
+}
+
+.team-section .details ul li {
+    float: left;
+}
+
+.team-section .details a {
+    font-size: 13px;
+    color: #687693;
+}
+
+.team-section .details ul li+li {
+    margin-left: 15px;
+}
+
+.team-grids .grid .fab::before {
+    font-size: 1rem;
+}
+
+.team-grids .grid .fab:hover {
+    color: #fc6e36;
+}
+
+@media(max-width: 550px) {
+    .team-section .team-grids .grid {
+        width: calc(100% - 15px) !important;
+        float: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .team-grids {
+        margin: 0 -7px;        
+    }
+
+    .team-section .team-grids .grid {
+        width: calc(50% - 15px);
+        margin: 0 7px 50px;
+    }
+
+    .team-section .details h4 {
+        font-size: 1.06667rem;
+    }
+
+    .team-section .details p {
+        font-size: .86667rem;
+    }
+}
+
+@media(max-width: 991px) {
+    .team-section .team-grids .grid {
+        width: calc(50% - 30px);
+        margin: 0 15px 60px;
+    }
+
+    /* In case of 3 Team Member */
+    .team-section .team-grids .grid:nth-child(3) {
+        width: 100%;
+    }
+}
+
+/* In case of 3 Team Member */
+@media (min-width:991px) and (max-width: 1200px){
+    .team-section .team-grids .grid {
+        width: calc(50% - 190px);
+    }
+}

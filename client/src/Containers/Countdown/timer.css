@@ -1,0 +1,92 @@
+.timer-div {
+    background-color: rgb(40, 66, 176);
+}
+  
+.timer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.timer-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.timer-text {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+  
+.timer-item-container {
+    margin-top: 23px;
+}
+  
+.timer-item {
+    display: flex;
+    justify-content: center;
+}
+  
+.timer-item-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px;
+}
+
+.timer-item-group-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: ltr !important;
+    border-radius: 6px;
+}
+
+.timer-item-group-inner > div {
+    margin: 0 2px;
+}
+
+.timer-item-value {
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(243, 39, 104);
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.3s ease all;
+    border-radius: 6px;
+    font-size: 38px;
+    line-height: 44px;
+    padding: 6px 9px;
+}
+
+.timer-item-value-base {
+    transition: all 0.3s ease;
+    display: block;
+    position: relative;
+    top: 0;
+    transform: translate3d(0, 0, 0);
+}
+
+.timer-item-label {
+    display: block;
+    text-align: center;
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    width: 100%;
+    max-width: 87.39999999999999px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 772px) {
+    .timer-text {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#back-top {
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 9999999;
+}
+
+#back-top a {
+    background: url(../../img/rocket.webp) no-repeat;
+    background-size: 95% 80%;
+    width: 50px;
+    height: 116px;
+    display: block;
+}

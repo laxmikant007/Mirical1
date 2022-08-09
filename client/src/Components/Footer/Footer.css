@@ -1,0 +1,141 @@
+/* FOOTER SECTION */
+.site-footer{
+    background-color: #1d41aa;
+    position: relative;
+  }
+
+  .site-footer p {
+    color: #fff;
+  }
+  
+  .site-footer ul{
+    list-style: none;
+  }
+  
+  .upper-footer {
+    padding: 100px 0 90px 0;
+  }
+  
+  .widget-title {
+    margin-bottom: 30px;
+    font-size: 21px;
+    color: #fff;
+  }
+  
+  .social-icons > ul > li+li {
+    margin-left: 15px;
+  }
+  
+  .widget{
+    padding-left: 20px;
+  }
+  
+  .footer-company-section ul {
+    width: 50%;
+  }
+  
+  .seperator {
+    background: hsla(0,0%,100%,.1);;
+    width: calc(100% - 30px);
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+  
+  .lower-footer {
+    text-align: center;
+  }
+  
+  .site-footer .lower-footer .row{
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .copyright, .extra-links > ul > li > a {
+    display: inline-block;
+    font-size: 0.9333rem;
+  }
+  
+  .extra-links {
+    float: right;
+  }
+  
+  .extra-links ul li, .social-icons ul li, .copyright, .footer-company-section ul {
+    float: left;
+  }
+  
+  .extra-links > ul > li+li {
+    margin-left: 35px;
+    position: relative;
+  }
+  
+  .extra-links > ul > li+li:before{
+    content: "";
+    background: #fff;
+    width: 15px;
+    height: 1px;
+    position: absolute;
+    top: 11px;
+    left: -25px;
+  }
+  
+  .footer-company-section > ul > li+li, .footer-service-section > ul > li+li {
+    margin-top: 15px;
+  }
+  
+  .footer-newsletter-section > form {
+    margin-top: 25px;
+    position: relative;
+  }
+
+  .newsletter-input-div {
+    display: flex;
+    align-items: center;
+    border: 1px #fff solid;
+  }
+
+  .newsletter-input-div > input {
+    color: #fff!important;
+    background: transparent;
+    border: 0;
+  }
+
+  .newsletter-input-div > button {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 21px;
+    padding-right: 15px;
+    outline: none !important;
+  }
+
+  .newsletter-input-div > button i:hover {
+    color: #FC6E36;
+  } 
+
+  .newsletter-input:focus {
+    background: transparent !important;
+    color: #fff !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+  
+  .newsletter-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1 !important; /* Firefox */
+  }
+  
+  .newsletter-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white !important;
+  }
+  
+  .newsletter-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white !important;
+  }
+
+  @media (max-width: 767px) {
+    .widget {
+      margin-top: 30px;
+    }
+  }

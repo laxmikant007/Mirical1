@@ -1,0 +1,28 @@
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700 !important;
+    color: #233d62 !important;
+}
+
+.policy-section .card, .terms-section .card {
+    box-shadow: 0 4px 21.36px 2.64px rgba(25,38,62,.06) !important;
+    padding: 2.5rem;
+}
+
+.policy-section .card .card-title, .terms-section .card .card-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 772px) {
+    .policy-section .card, .terms-section .card {
+         padding: 0.9rem;
+    }
+
+    .policy-section .card-title, .terms-section .card-title {
+        font-size: 2rem;
+    }
+
+    .policy-section .h2, .terms-section .h2 {
+        font-size: 1.5rem;
+    }
+}

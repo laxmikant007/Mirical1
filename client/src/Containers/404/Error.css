@@ -1,0 +1,17 @@
+.error-section{
+    text-align: center;
+}
+
+.error-message{
+    margin-top: 40px;
+}
+
+.error-message h3 {
+    font-size: 1.6rem;
+    margin: 0 0 .8em;
+}
+
+.error-message p {
+    font-size: 1.2rem;
+    margin-bottom: 1.8em;
+}

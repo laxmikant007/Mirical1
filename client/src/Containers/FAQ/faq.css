@@ -1,0 +1,151 @@
+.faq-section {
+    position: relative;
+}
+
+.faq-section::before {
+    content: "";
+    background: url('../../img/faq-shape.webp') 50%/cover no-repeat local;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.faq-heading {
+    text-align: left !important;
+}
+
+.accordion .card {
+    margin-bottom: 20px;
+    background: #fff;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 4px 25.81px 3.19px rgba(35,61,98,.06);
+}
+
+.accordion .card:hover {
+    cursor: pointer;
+}
+
+.accordion .card .card-header {
+    background-color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #233d62;
+    display: block;
+    padding: 25px 35px;
+    position: relative;
+}
+
+.accordion .card .card-header i {
+    margin-left: 10%;
+    align-self: center;
+}
+
+.accordion .card .card-header i::before {
+    font-size: 1.7rem;
+    color: #d4d8e1;
+    
+}
+
+.accordion .card .card-body {
+    color: #687693;
+}
+
+.faq-grids {
+    margin-top: 235px;
+    position: relative;
+}
+
+.faq-section .grid {
+    background-color: #fc6e36;
+    width: 185px;
+    height: 185px;
+    line-height: 185px;
+    border-radius: 50%;
+    text-align: center;
+    display: table;
+    position: absolute;
+}
+
+.faq-section .faq-grids>.grid:first-child {
+    left: 150px;
+}
+
+.faq-section .faq-grids>.grid:nth-child(2) {
+    background-color: #5197cf;
+    top: 130px;
+}
+
+.faq-section .faq-grids>.grid:nth-child(3) {
+    background-color: #c334d2;
+    width: 135px;
+    height: 135px;
+    top: 225px;
+    left: 215px;
+}
+
+.faq-section .faq-grids>.grid:nth-child(4) {
+    background-color: #2842b0;
+    width: 145px;
+    height: 145px;
+    top: 145px;
+    left: 340px;
+}
+
+.faq-grids .grid .info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.faq-grids .grid h3 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin: 0;
+}
+
+.faq-grids .grid p {
+    font-size: 1.06667rem;
+    color: #fff;
+    margin: 0;
+}
+
+.faq-section .faq-grids>.grid:nth-child(3) h3 {
+    font-size: 2.66667rem;
+}
+
+.faq-section .faq-grids>.grid:nth-child(4) h3 {
+    font-size: 2.4rem;
+}
+
+@media (max-width: 1199px) {
+    .faq-section .faq-grids {
+        height: 350px;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 550px) {
+    .faq-section .grid {
+        width: 50%;
+        float: left;
+        border-radius: 0;
+        position: static;
+    }
+
+    .faq-section .faq-grids>.grid:nth-child(3),  .faq-section .faq-grids>.grid:nth-child(4) {
+        width: 50%;
+        float: left;
+        position: static;
+        border-radius: 0;
+        height: 185px;
+    }
+}
+
+@media (max-width: 991px) {
+    .faq-section::before {
+        width: 100%;
+    }
+}

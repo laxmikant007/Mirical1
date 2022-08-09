@@ -1,0 +1,134 @@
+.contact-info {
+    margin-top: 130px ;
+}
+.contact-info i::before {
+    font-size: 2.7rem;
+    color: #FC6E36;
+}
+
+.contact-info i  {
+    margin-right: 2rem;
+}
+
+.contact-info ul:nth-child(3) li i {
+    margin-right: 4rem !important;
+}
+
+.contact-info ul > li {
+    display: flex;
+}
+
+.contact-info ul > li+li {
+    margin-top: 50px;
+}
+
+.contact-info i {
+    align-self: center;
+}
+
+.contact-list-details a {
+    overflow-y: scroll;
+}
+
+.contact-list-details h4 {
+    font-size: 1.2rem;
+    margin: 0 0 .2em;
+}
+
+.contact-list-details p {
+    font-size: 1.06667rem;
+    margin: 0;
+}
+
+.contact-list-details a, .contact-list-details a:hover {
+    color: #687693;
+}
+
+.contact-section-title {
+    text-align: left !important;
+    margin-bottom: 50px;
+}
+
+.contact-section-title span {
+    display: inline-block;
+    background-color: rgba(252,110,54,.1);
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.contact-section form {
+    margin: 0 -15px;
+    overflow: hidden;
+}
+
+.contact-form {
+    margin-left: 10px;
+}
+
+.contact-section form > div {
+    width: calc(100% - 30px);
+}
+
+/* Chrome, Safari, Edge, Opera */
+.contact-section form input::-webkit-outer-spin-button,
+.contact-section form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.contact-section form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.contact-section form input, .contact-section form select, .contact-section form textarea {
+    width: 100%;
+    height: 55px;
+    padding: 6px 12px;
+    border: 2px solid hsla(0,0%,100%,.2);
+    border-radius: 0;
+    background: #fdfdfd;
+    border-color: #eaeaea;
+    box-shadow: none!important;
+}
+
+.contact-section form input:focus, .contact-section form select:focus, .contact-section form textarea:focus {
+    border-color: #FC6E36!important;
+}
+
+.contact-section form input::placeholder, .contact-section form textarea::placeholder, .contact-section form select { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9D9C9C !important;
+    opacity: 1 !important; /* Firefox */
+}
+  
+.contact-section form input:-ms-input-placeholder, .contact-section form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9D9C9C !important;
+}
+  
+.contact-section form input::-ms-input-placeholder, .contact-section form textarea::-ms-input-placeholder { /* Microsoft Edge */
+    color: #9D9C9C !important;
+}
+
+.contact-form form button {
+    margin-top: 20px;
+    outline: none;
+    border: 0;
+}
+
+.discordLink, .discordLink:hover {
+    color: #FC6E36;
+}
+
+@media (max-width: 991px) {
+    .contact-info {
+        margin-bottom: 60px !important;
+        margin-top: 50px !important;
+    }
+
+}
+
+@media (min-width: 990px) and (max-width:1200px) {
+    .contact-list-details p {
+        font-size: 0.96667rem;
+    }
+}

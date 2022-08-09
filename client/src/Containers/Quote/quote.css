@@ -1,0 +1,68 @@
+.quote-section-title {
+    text-align: left !important;
+    margin-bottom: 50px;
+}
+
+.quote-section-title span {
+    display: inline-block;
+    background-color: rgba(252,110,54,.1);
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.quote-section form {
+    margin: 0 -15px;
+    overflow: hidden;
+}
+
+.quote-form {
+    margin-left: 10px;
+}
+
+.quote-section form > div {
+    width: calc(100% - 30px);
+}
+
+.quote-section form input::-webkit-outer-spin-button,
+.quote-section form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.quote-section form input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.quote-section form input, .quote-section form select, .quote-section form textarea  {
+    width: 100%;
+    height: 55px;
+    padding: 6px 12px;
+    border: 2px solid hsla(0,0%,100%,.2);
+    border-radius: 0;
+    background: #fdfdfd;
+    border-color: #eaeaea;
+    box-shadow: none!important;
+}
+
+.quote-section form input:focus, .quote-section form select:focus, .quote-section form textarea:focus {
+    border-color: #FC6E36!important;
+}
+
+.quote-section form input::placeholder, .quote-section form textarea::placeholder, .quote-section form select { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9D9C9C !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+.quote-section form input:-ms-input-placeholder, .quote-section form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9D9C9C !important;
+}
+
+.quote-section form input::-ms-input-placeholder, .quote-section form textarea::-ms-input-placeholder {
+    color: #9D9C9C !important;
+}
+
+.quote-form form button {
+    margin-top: 20px;
+    outline: none;
+    border: 0;
+}
